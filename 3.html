@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Анкета - Школа разработки интерфейсов</title>
+</head>
+<body>
+<script type="text/javascript">
+    /**
+     * Создает экземпляр Машины
+     * @this {Car}
+     * @param {string} manufacturer Производитель
+     * @param {string} model Модель
+     * @param {number} year Год производство
+     */
+    function Car(manufacturer, model, year) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.year = (year === undefined) ? new Date().getFullYear() : year;
+    }
+
+    /**
+     * Строковое представление Машины
+     */
+    Car.prototype.toString = function () {
+        return this.getInfo();
+    }
+
+    /**
+     * Выводит информацию о Машине
+     */
+    Car.prototype.getInfo = function () {
+        return this.manufacturer + " " + this.model + " " + this.year;
+    }
+
+    /**
+     * Выводит подробную информацию о Машине
+     */
+    Car.prototype.getDetailedInfo = function () {
+        return "Производитель: " + this.manufacturer + ". Модель: " + this.model + ". Год: " + this.year;
+    }
+
+    /**
+     * Возвращает идентификатор Машины
+     */
+    Car.prototype.getId = function () {
+        return this.manufacturer + " " + this.model + " " + this.year;
+    }
+
+    /**
+     * Возвращает страну Машины
+     */
+    Car.prototype.getCountry = function () {
+        switch (this.manufacturer.toLowerCase()) {
+            case 'bmw':
+            case 'audi':
+                return 'Germany';
+
+            case 'toyota':
+                return 'Japan';
+        }
+    }
+
+    var bmw = new Car("BMW", "X5", 2010),
+            audi = new Car("Audi", "Q5", 2012),
+            toyota = new Car("Toyota", "Camry");
+
+    /**
+     * Создает экземпляр Автосалона
+     * @this {CarDealer}
+     * @param {string} name Название автосалона
+     */
+    function CarDealer(name) {
+        this.name = name;
+        this.cars = [];
+    }
+
+    var yandex = new CarDealer('Яндекс.Авто');
+
+    /**
+     * Добавляет машины в Автосалон
+     * @param {Car} cars список машин
+     */
+    CarDealer.prototype.add = function () {
+        for (var i in arguments) {
+            this.cars.push({car:arguments[i]});
+        }
+        return this;
+    }
+
+    yandex
+            .add(toyota)
+            .add(bmw, audi);
+
+    /**
+     * Установить цену на машину
+     * @param {string} car идентификатор машины
+     * @param {string} price стоимость
+     */
+    CarDealer.prototype.setPrice = function (car, price) {
+        for (var i in this.cars) {
+            if (this.cars[i].car.getId() == car) {
+                this.cars[i].price = price;
+                return this;
+            }
+        }
+        return this;
+    }
+    // идентификатор машины составляется следующим образом "производитель модель год"
+    // стоимость машины может быть задана в двух валютах: йена и евро.
+    yandex
+            .setPrice('BMW X5 2010', '€2000')
+            .setPrice('Audi Q5 2012', '€3000')
+            .setPrice('Toyota Camry 2012', '¥3000');
+
+    /**
+     * Выводит список машин в продаже
+     */
+    CarDealer.prototype.list = function () {
+        return this.listByCountry();
+    }
+
+    /**
+     * Выводит список машин в продаже с фильтрацией по стране
+     * @param {string} country страна
+     */
+    CarDealer.prototype.listByCountry = function (country) {
+        var cars = [];
+        for (var i in this.cars) {
+            if (country === undefined || country == this.cars[i].car.getCountry()) {
+                cars.push(this.cars[i].car.getInfo());
+            }
+        }
+        return cars.join(", ");
+    }
+
+    /**
+     * Переводит цену в рубли
+     * @param {string} price цена с идентификатором валюты (€2000)
+     */
+    function getPriceInRUB(price) {
+        switch (price.charAt(0)) {
+            case '€':
+                return 'R' + (40 * price.slice(1));
+            case '¥':
+                return 'R' + (41 * price.slice(1));
+        }
+    }
+
+    /**
+     * Выводит список машин с ценой в рублях
+     */
+    CarDealer.prototype.listInRUB = function () {
+        var cars = [];
+        for (var i in this.cars) {
+            cars.push(this.cars[i].car.getInfo() + ' ' + getPriceInRUB(this.cars[i].price));
+        }
+        return cars.join(", ");
+    }
+
+
+</script>
+</body>
+</html>

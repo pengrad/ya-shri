@@ -1,0 +1,804 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.ui.tabs.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <title>Анкета - Школа разработки интерфейсов</title>
+</head>
+<body class=b-page>
+<div class="l-head__r">
+    <a class="b-print" href="#" onclick="window.print(); return false;">Напечатать</a>
+</div>
+<div class="l-page">
+<div class="b-page-title">
+    <span class="b-page-title__title">Анкета Школы разработки интерфейсов</span>
+</div>
+<br>
+
+<!--Общие вопросы-->
+<div class="b-task-title">&#9679;
+    <a class="b-task-title__a b-task-title__a_type_active" href="#"
+       onclick="openBlock(this, '#tasks-1');return false;">Общие вопросы</a>
+</div>
+<div class="b-tasks" id="tasks-1" style="display: block;"><br>
+
+    <div>Фамилия, имя, отчество</div>
+    <div class="b-task-answer"><p class="b-task-answer__p">Паршин Станислав Александрович</p></div>
+    <div>E-mail</div>
+    <div class="b-task-answer"><p class="b-task-answer__p">pengrad@bk.ru</p></div>
+    <div>Год рождения</div>
+    <div class="b-task-answer"><p class="b-task-answer__p">19.01.1988</p></div>
+    <div>Город, в котором живёте</div>
+    <div class="b-task-answer"><p class="b-task-answer__p">Москва</p></div>
+    <div>Образование</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Московский Государственный Университут Путей сообщения (МИИТ)<br><br>
+            2005-2010:<br>
+            Программное обеспечение вычислительной техники и автоматизированных систем.<br>
+            Кафедра "Математическое обеспечение автоматизированных систем управления".<br>
+            Инженер (Диплом с отличием)<br><br>
+            2010-2013:<br>
+            Аспирантура<br>
+            Теоретические основы информатики (05.13.17)<br>
+            Кафедра "Математическое обеспечение автоматизированных систем управления".<br>
+        </p>
+    </div>
+    <div>На каком уровне владеете английским языком?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">Pre-Intermediate. Читаю техническую литературу.</p>
+    </div>
+    <div>Чего вы ожидаете от участия в Школе?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Естественно, жду приобретения новых навыков и знаний. Хочу подняться на более высокий уровень программирования.
+            Как технологически, научившись грамотней писать код, так и в общем, получив опыт и знания в дизайне, тестировании, работе в команде.<br><br>
+            Хочу взглянуть на Яндекс изнутри, познакомиться с сотрудниками. Мне очень нравится то, что я вижу на Yac'ах и Субботниках.
+            Жду интересной практики и стажировки, и надеюсь закрепиться в Яндексе.
+        </p>
+    </div>
+    <div>Откуда вы о нас узнали?</div>
+    <div class="b-task-answer"><p class="b-task-answer__p">Яндекс.Субботник в Москве (28.07.2012)</p></div>
+    <div>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Я рассчитываю, что это будет мое основное времяпрепровождение.<br>
+            40 часов в неделю, если конкретней.
+        </p>
+    </div>
+</div>
+<!---->
+
+<!--Опыт разработки-->
+<div class="b-task-title">&#9679;
+    <a class="b-task-title__a" href="#" onclick="openBlock(this, '#tasks-2');return false;">Опыт разработки</a>
+</div>
+<div class="b-tasks" id="tasks-2" style="display: none;"><br>
+
+    <div>Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Если говорить о Веб-разработках:<br>
+            - Студенческие лабы - странички на HTML и PHP.<br>
+            - Дипломный проект - система управления проектами. Портал на J2EE с интерактивом в виде jQuery и Java-апплетом.<br>
+            - На основном месте работы пара корпоративных сайтов на ASP.NET со "стандартным" интерфейсом + jQuery<br>
+            - Фриланс - несколько корпоративных сайтов, где я, в основном, отвечаю за backend.
+        </p>
+    </div>
+    <div>Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Java с 2007 года. Пока наиболее используемый мной язык.<br>
+            Применяю как для Веб, так и для десктоп-разработки.<br>
+            Использую Spring, JDBC, Hibernate, RMI, Apache Products<br><br>
+            T-SQL c 2008 по 2012. Был основным инструментом на работе.<br>
+            "Дома" в качестве БД использую MySQL, присматриваюсь к PostgreSQL.<br><br>
+            C# c 2010. Второй инструмент на работе. Было легко освоить после Java. Прекрасно подходит для Windows-приложений.
+            Приятно работать с ASP.NET MVC, который также использовал на работе.<br><br>
+            Сейчас увлечен скриптовыми языками - JS, Python.<br>
+        </p>
+    </div>
+    <div>Какие редакторы и среды разработки вы использовали? Чем обычно пользуетесь?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Очень люблю продукты компании JetBrains.<br>
+            Это IntelliJ IDEA для Java, WebStorm для html/css/js (в нем создан сайт-резюме).<br>
+            Знакомлюсь с Python через PyCharm.<br>
+            Не представляю работы с Visual Studio без ReSharper'a.<br><br>
+            C Java работал в Eclipse и NetBeans. Eclipse не понравился совершенно, в NetBeans могу посоздавать GUI.<br>
+            С MySQL нравится работать через HeidiSql, c MS SQL Server - через SQL Server Management Studio.<br>
+            Использовал MS Visual Studio 2010 и 2012.<br>
+            Пробовал Xcode, не в восторге.
+        </p>
+    </div>
+    <div>С какими ОС приходилось сталкиваться? Для каких целей вы их использовали?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Win XP, 7, Server 2003/2008 - долгое время были основными ОС дома и на работе.<br>
+            Знакомился с Linux через Ubuntu, до сих пор стоит на ноутбуке и выручает, если ломается Windows.<br>
+            OpenSuse на VPS в облачном сервисе - выкладываю наработки, немного администрирую.<br>
+            Не так давно решил попробовать Mac и OS X, очень доволен, теперь это моя основная ОС.<br>
+            iOS, Android, Windows Phone - изготовлял и тестировал поделки.
+        </p>
+    </div>
+    <div>Приходилось ли вам пользоваться системами контроля версий? Если да, то какими? Какая из них вам нравится больше всего?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            SVN. Разворачивал свои репозитории, использую хостинг на code.google.com<br>
+            В качестве инструментов применяю встроенные средства JetBrains-продуктов, TortoiseSVN.<br>
+            На Маке пробовал svnX, Versions, Cornerstone - ни один полностью не устраивает.<br><br>
+
+            Осваиваю Git, пытаюсь работать с ним через консоль.
+        </p>
+    </div>
+    <div>Использовали ли вы системы постановки и ведения задач?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            Microsoft SharePoint и Atlassian JIRA.<br>
+            Очень нравится JIRA.
+        </p>
+    </div>
+    <div>Какие полезные для фронтенд-разработчика ресурсы вы используете и можете посоветовать?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            habrahabr.ru<br>
+            htmlbook.ru<br>
+            stackoverflow.com
+        </p>
+    </div>
+    <div>Работали ли вы где-нибудь? Какие у вас были должностные обязанности? Есть ли опыт работы в команде?</div>
+    <div class="b-task-answer">
+        <p class="b-task-answer__p">
+            С июля 2008 по август 2012 - издательская группа АСТ.<br>
+            Сначала администратором баз данных, затем программистом баз данных и затем программистом вообще.<br>
+            - Администрирование MS SQL Server 2000/2008.<br>
+            - Проектирование и разработка структуры базы данных.<br>
+            - Все остальное по базам данных (процедуры, функции, триггеры, репликации)<br>
+            - Проектирование и документация алгоритмов с использованием UML.<br>
+            - Создание клиентских приложений (АРМов), взаимодействующих с базой данных, на Java, .NET.<br>
+            - Разработка внутренних Веб-порталов на ASP.NET<br><br>
+
+            Опыт работы в команде есть еще и по фриланс-деятельности.<br>
+            Мы разрабываем в паре, и я, в основном, отвечаю за backend.
+        </p>
+    </div>
+</div>
+<!---->
+
+
+<!--Техническое задание-->
+<div class="b-task-title">&#9679;
+    <a class="b-task-title__a" href="#" onclick="openBlock(this, '#tasks-3');return false;">Техническое задание</a>
+</div>
+<div class="b-tasks b-tasks_type_tech" id="tasks-3" style="display: none;"><br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-1');return false;">
+    1. Перечислите известные вам инструменты и приёмы для отладки кода в разных браузерах.</a>
+</div>
+<div class="b-task-answer b-task-answer_type_tech" id="tech-answer-1">
+    <p class="b-task-answer__p">
+        Developer Tools in Firefox, Chrome, IE<br>
+        Firebug for Firefox<br>
+        Browser Mode (IE7,IE8,IE9) in Internet Explorer<br>
+    </p>
+</div>
+<br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-2');return false;">
+    2. Опишите своими словами, что происходит в браузерах при клике на ссылку yandex.ru. </a>
+</div>
+<div class="b-task-answer b-task-answer_type_tech" id="tech-answer-2">
+    <p class="b-task-answer__p">
+        1. Обрабатывается событие onclick, вызывается соответствующий JS-код.<br>
+        2. Создается и открывается некий HttpConnection по указанному URL.<br>
+        3. Осуществляется Http-запрос, в качестве параметров используется заголовки запроса (Request Headers).<br>
+        Такие как: Method, Accept, User-Agent. Передаются куки для этого сайта.<br>
+        4. Открывается входной поток, и считываются статус и заголовки ответа (Response Headers).<br>
+        Content-Length, Content-Type.<br>
+        5. Если контент есть (Content-Length > 0), смотрится Content-Type и, если браузер не может его отобразить своими средствами, после диалога с пользователем происходит загрузка в файл.<br>
+        Если браузер может его отобразить (предположим это text/html):<br>
+        6. Html загружается и по мере загрузки парсится.<br>
+        7. Происходит рендеринг загруженного контента и параллельно с ним загрузка остальной части страницы, а также других ресурсов, подключенных к странице.<br>
+        8. Загрузка ресурсов (css, js, images) осуществляется с передачей Request Headers и с получением Response Headers.<br>
+        В случае получения статуса "304 Not Modified", ресурс может считаться из кэша.<br>
+        Загрузка происходит параллельно в несколько потоков. Число потоков ограниченно по-разному в разных браузерах.<br>
+        9. В ходе загрузки при интерпретации JS или CSS может произойти перерендеринг уже отображенных частей.<br>
+        10. После загрузки на диск сохраняются ресурсы и куки.<br>
+    </p>
+</div>
+<br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-3');return false;">
+    3. Предположим, что мы представляем автосалон по продаже японских и немецких автомобилей.
+    У нас есть базовые классы и примеры их использования. Допишите недостающий код.</a>
+</div>
+<div class="b-task-answer_type_code" id="tech-answer-3">
+    <ul>
+        <li><a href="#tabs-js-1">Задание</a></li>
+        <li><a href="#tabs-js-2">Решение</a></li>
+    </ul>
+    <br>
+
+    <div id="tabs-js-1" class="b-code">
+        <pre style="line-height:125%;"><span style="color:#408080;font-style:italic;">/**</span><br><span
+                style="color:#408080;font-style:italic;"> * Создает экземпляр Машины</span><br><span
+                style="color:#408080;font-style:italic;"> * @this {Car}</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} manufacturer Производитель</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} model Модель</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {number} year Год производство</span><br><span
+                style="color:#408080;font-style:italic;"> */</span><br><span style="color:#008000;font-weight:bold;">function</span> Car(manufacturer, model, year) {<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.manufacturer <span style="color:#666666;">=</span> manufacturer;<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.model <span
+                style="color:#666666;">=</span> model;<br>&nbsp; &nbsp; <span style="color:#008000;font-weight:bold;">this</span>.year <span
+                style="color:#666666;">=</span> year;<br>}<br><span style="color:#408080;font-style:italic;">// @TODO: если конструктор вызывается без указания текущего года, то подставлять текущий</span><br><span
+                style="color:#408080;font-style:italic;">// @TODO: реализовать методы вывода информации о машине: </span><br><span
+                style="color:#408080;font-style:italic;">// console.log('Car: ' + bmw); // Car: BMW X5 2010</span><br><span
+                style="color:#408080;font-style:italic;">// console.log(bmw.getInfo()); // BMW X5 2010</span><br><span
+                style="color:#408080;font-style:italic;">// console.log(bmw.getDetailedInfo()); // Производитель: BMW. Модель: X5. Год: 2010</span><br><br><span
+                style="color:#008000;font-weight:bold;">var</span> bmw <span style="color:#666666;">=</span> <span
+                style="color:#008000;font-weight:bold;">new</span> Car(<span style="color:#ba2121;">"BMW"</span>, <span
+                style="color:#ba2121;">"X5"</span>, <span
+                style="color:#666666;">2010</span>),<br>&nbsp; &nbsp; audi <span style="color:#666666;">=</span> <span
+                style="color:#008000;font-weight:bold;">new</span> Car(<span style="color:#ba2121;">"Audi"</span>, <span
+                style="color:#ba2121;">"Q5"</span>, <span
+                style="color:#666666;">2012</span>),<br>&nbsp; &nbsp; toyota <span style="color:#666666;">=</span> <span
+                style="color:#008000;font-weight:bold;">new</span> Car(<span
+                style="color:#ba2121;">"Toyota"</span>, <span style="color:#ba2121;">"Camry"</span>);<br><br><br><span
+                style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Создает экземпляр Автосалона</span><br><span
+                style="color:#408080;font-style:italic;"> * @this {CarDealer}</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} name Название автосалона</span><br><span
+                style="color:#408080;font-style:italic;"> */</span><br><span style="color:#008000;font-weight:bold;">function</span> CarDealer(name) {<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.name <span style="color:#666666;">=</span> name;<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.cars <span
+                style="color:#666666;">=</span> [];<br>}<br><br><span style="color:#008000;font-weight:bold;">var</span> yandex <span
+                style="color:#666666;">=</span> <span style="color:#008000;font-weight:bold;">new</span> CarDealer(<span
+                style="color:#ba2121;">'Яндекс.Авто'</span>);<br><br><span style="color:#408080;font-style:italic;">// @TODO: реализовать метод добавления машин в автосалон. Предусмотреть возможность добавления одной машины, нескольких машин.</span><br>yandex<br>&nbsp; &nbsp; .add(toyota)<br>&nbsp; &nbsp; .add(bmw, audi);<br><br><span
+                style="color:#408080;font-style:italic;">// @TODO: реализовать метод установки цены на машину</span><br><span
+                style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Установить цену на машину</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} car идентификатор машины</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} price стоимость</span><br><span
+                style="color:#408080;font-style:italic;"> */</span><br><span style="color:#408080;font-style:italic;">// идентификатор машины составляется следующим образом "производитель модель год"</span><br><span
+                style="color:#408080;font-style:italic;">// стоимость машины может быть задана в двух валютах: йена и евро.</span><br>yandex<br>&nbsp; &nbsp; .setPrice(<span
+                style="color:#ba2121;">'BMW X5 2010'</span>, <span style="color:#ba2121;">'€2000'</span>)<br>&nbsp; &nbsp; .setPrice(<span
+                style="color:#ba2121;">'Audi Q5 2012'</span>, <span style="color:#ba2121;">'€3000'</span>)<br>&nbsp; &nbsp; .setPrice(<span
+                style="color:#ba2121;">'Toyota Camry 2012'</span>, <span style="color:#ba2121;">'¥3000'</span>);<br><br><span
+                style="color:#408080;font-style:italic;">// @TODO: реализовать вывод списка автомобилей в продаже, с фильтрацией по стране производителю, используя метод getCountry:</span><br><span
+                style="color:#008000;font-weight:bold;">function</span> getCountry() {<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">switch</span> (<span style="color:#008000;font-weight:bold;">this</span>.manufacturer.toLowerCase()) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'bmw'</span><span
+                style="color:#666666;">:</span><br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'audi'</span><span
+                style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">return</span> <span style="color:#ba2121;">'Germany'</span>;<br><br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'toyota'</span><span
+                style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">return</span> <span style="color:#ba2121;">'Japan'</span>;<br>&nbsp; &nbsp; }<br>}<br><br>yandex.list(); <span
+                style="color:#408080;font-style:italic;">//BMW X5 2010, Audi Q5 2012, Toyota Camry 2012</span><br>yandex.listByCountry(<span
+                style="color:#ba2121;">'Germany'</span>); <span style="color:#408080;font-style:italic;">//BMW X5 2010, Audi Q5 2012</span><br><br><span
+                style="color:#408080;font-style:italic;">// @TODO: бонус! выводить список машин с ценой в рублях.</span></pre>
+    </div>
+    <div id="tabs-js-2" class="b-code">
+        <pre style="line-height:125%;"><span style="color:#408080;font-style:italic;">/**</span><br><span
+                style="color:#408080;font-style:italic;"> * Создает экземпляр Машины</span><br><span
+                style="color:#408080;font-style:italic;"> * @this {Car}</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} manufacturer Производитель</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {string} model Модель</span><br><span
+                style="color:#408080;font-style:italic;"> * @param {number} year Год производство</span><br><span
+                style="color:#408080;font-style:italic;"> */</span><br><span style="color:#008000;font-weight:bold;">function</span> Car(manufacturer, model, year) {<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.manufacturer <span style="color:#666666;">=</span> manufacturer;<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">this</span>.model <span
+                style="color:#666666;">=</span> model;<br>&nbsp; &nbsp; <span style="color:#008000;font-weight:bold;">this</span>.year <span
+                style="color:#666666;">=</span> (year <span
+                style="color:#666666;">===</span> <span
+                style="color:#008000;font-weight:bold;">undefined</span>) ? <span
+                style="color:#008000;font-weight:bold;">new</span> Date().getFullYear() : year;<br>}
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Строковое представление Машины</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>Car.prototype.toString = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return this</span>.getInfo();<br><br>}
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Выводит информацию о Машине</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>Car.prototype.getInfo = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return this</span>.manufacturer + <span
+                    style="color:#ba2121;">" "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.model + <span style="color:#ba2121;">" "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.year;<br>}
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Выводит подробную информацию о Машине</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>Car.prototype.getDetailedInfo = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return </span><span
+                    style="color:#ba2121;">"Производитель: "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.manufacturer + <span style="color:#ba2121;">". Модель: "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.model + <span
+                    style="color:#ba2121;">". Год: "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.year;<br>}
+
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Возвращает идентификатор Машины</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>Car.prototype.getId = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return this</span>.manufacturer + <span
+                    style="color:#ba2121;">" "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.model + <span style="color:#ba2121;">" "</span> + <span
+                    style="color:#008000;font-weight:bold;">this</span>.year;<br>}
+
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Возвращает страну Машины</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>Car.prototype.getCountry = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">switch</span> (<span
+                    style="color:#008000;font-weight:bold;">this</span>.manufacturer.toLowerCase()) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'bmw'</span><span
+                    style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'audi'</span><span
+                    style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return</span> <span style="color:#ba2121;">'Germany'</span>;<br><br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">case</span> <span
+                    style="color:#ba2121;">'toyota'</span><span
+                    style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return</span> <span
+                    style="color:#ba2121;">'Japan'</span>;<br>&nbsp; &nbsp; }<br>}
+                <br><span
+                    style="color:#008000;font-weight:bold;">var</span> bmw <span style="color:#666666;">=</span> <span
+                    style="color:#008000;font-weight:bold;">new</span> Car(<span
+                    style="color:#ba2121;">"BMW"</span>, <span
+                    style="color:#ba2121;">"X5"</span>, <span
+                    style="color:#666666;">2010</span>),<br>&nbsp; &nbsp; audi <span
+                    style="color:#666666;">=</span> <span
+                    style="color:#008000;font-weight:bold;">new</span> Car(<span
+                    style="color:#ba2121;">"Audi"</span>, <span
+                    style="color:#ba2121;">"Q5"</span>, <span
+                    style="color:#666666;">2012</span>),<br>&nbsp; &nbsp; toyota <span
+                    style="color:#666666;">=</span> <span
+                    style="color:#008000;font-weight:bold;">new</span> Car(<span
+                    style="color:#ba2121;">"Toyota"</span>, <span
+                    style="color:#ba2121;">"Camry"</span>);<br><br><br><span
+                    style="color:#408080;font-style:italic;">/**</span><br><span
+                    style="color:#408080;font-style:italic;"> * Создает экземпляр Автосалона</span><br><span
+                    style="color:#408080;font-style:italic;"> * @this {CarDealer}</span><br><span
+                    style="color:#408080;font-style:italic;"> * @param {string} name Название автосалона</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br><span
+                    style="color:#008000;font-weight:bold;">function</span> CarDealer(name) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">this</span>.name <span style="color:#666666;">=</span> name;<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">this</span>.cars <span
+                    style="color:#666666;">=</span> [];<br>}<br><br><span
+                    style="color:#008000;font-weight:bold;">var</span> yandex <span
+                    style="color:#666666;">=</span> <span
+                    style="color:#008000;font-weight:bold;">new</span> CarDealer(<span
+                    style="color:#ba2121;">'Яндекс.Авто'</span>);
+
+            <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Добавляет машины в Автосалон</span><br><span
+                    style="color:#408080;font-style:italic;"> * @param {Car} cars список машин</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>CarDealer.prototype.add = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">for</span> (<span style="color:#008000;font-weight:bold;">var</span> i <span
+                    style="color:#008000;font-weight:bold;">in</span> arguments) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">this</span>.cars.push({car:arguments[i]});<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return this</span>;<br>}
+            <br><br>yandex<br>&nbsp; &nbsp; .add(toyota)<br>&nbsp; &nbsp; .add(bmw, audi);<br>
+            <br><span
+                    style="color:#408080;font-style:italic;">/**</span><br><span
+                    style="color:#408080;font-style:italic;"> * Установить цену на машину</span><br><span
+                    style="color:#408080;font-style:italic;"> * @param {string} car идентификатор машины</span><br><span
+                    style="color:#408080;font-style:italic;"> * @param {string} price стоимость</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>CarDealer.prototype.setPrice = <span
+                    style="color:#008000;font-weight:bold;">function</span> (car, price) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">for</span> (<span style="color:#008000;font-weight:bold;">var</span> i <span
+                    style="color:#008000;font-weight:bold;">in</span> <span
+                    style="color:#008000;font-weight:bold;">this</span>.cars) {
+        if (<span style="color:#008000;font-weight:bold;">this</span>.cars[i].car.getId() == car) {
+            <span style="color:#008000;font-weight:bold;">this</span>.cars[i].price = price;
+            <span style="color:#008000;font-weight:bold;">return this</span>;
+        }
+    }<br>&nbsp; &nbsp; <span style="color:#008000;font-weight:bold;">return this</span>;<br>}<br><span style="color:#408080;font-style:italic;">// идентификатор машины составляется следующим образом "производитель модель год"</span><br><span
+                    style="color:#408080;font-style:italic;">// стоимость машины может быть задана в двух валютах: йена и евро.</span><br>yandex<br>&nbsp; &nbsp; .setPrice(<span
+                    style="color:#ba2121;">'BMW X5 2010'</span>, <span style="color:#ba2121;">'€2000'</span>)<br>&nbsp; &nbsp; .setPrice(<span
+                    style="color:#ba2121;">'Audi Q5 2012'</span>, <span style="color:#ba2121;">'€3000'</span>)<br>&nbsp; &nbsp; .setPrice(<span
+                    style="color:#ba2121;">'Toyota Camry 2012'</span>, <span style="color:#ba2121;">'¥3000'</span>);<br>
+        <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Выводит список машин в продаже</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>CarDealer.prototype.list = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return this</span>.listByCountry();<br>}
+            <br><span
+                    style="color:#408080;font-style:italic;">/**</span><br><span
+                    style="color:#408080;font-style:italic;"> * Выводит список машин в продаже с фильтрацией по стране</span><br><span
+                    style="color:#408080;font-style:italic;"> * @param {string} country страна</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>CarDealer.prototype.listByCountry = <span
+                    style="color:#008000;font-weight:bold;">function</span> (country) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">var</span> cars <span
+                    style="color:#666666;">=</span> [];<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">for</span> (<span style="color:#008000;font-weight:bold;">var</span> i <span
+                    style="color:#008000;font-weight:bold;">in</span> <span
+                    style="color:#008000;font-weight:bold;">this</span>.cars) {
+        if (country === <span style="color:#008000;font-weight:bold;">undefined</span> || country == <span style="color:#008000;font-weight:bold;">this</span>.cars[i].car.getCountry()) {
+            cars.push(<span style="color:#008000;font-weight:bold;">this</span>.cars[i].car.getInfo());
+        }
+    }<br>&nbsp; &nbsp; <span style="color:#008000;font-weight:bold;">return </span>cars.join(<span style="color:#ba2121;">', '</span>);<br>}<br>
+    <br><span style="color:#408080;font-style:italic;">/**</span><br><span style="color:#408080;font-style:italic;"> * Переводит цену в рубли</span><br><span style="color:#408080;font-style:italic;"> * @param {string} price цена с идентификатором валюты (€2000)</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br><span
+                    style="color:#008000;font-weight:bold;">function</span> getPriceInRUB(price) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">switch</span> (price.charAt(0)) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">case</span> <span style="color:#ba2121;">'€'</span><span
+                    style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return</span> <span style="color:#ba2121;">'R'</span> + (40 * price.slice(1));<br><br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">case</span> <span
+                    style="color:#ba2121;">'¥'</span><span
+                    style="color:#666666;">:</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">return</span> <span
+                    style="color:#ba2121;">'R'</span> + (41 * price.slice(1));<br>&nbsp; &nbsp; }<br>}
+            <br><span
+                    style="color:#408080;font-style:italic;">/**</span><br><span
+                    style="color:#408080;font-style:italic;"> * Выводит список машин с ценой в рублях</span><br><span
+                    style="color:#408080;font-style:italic;"> */</span><br>CarDealer.prototype.listInRUB = <span
+                    style="color:#008000;font-weight:bold;">function</span> () {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">var</span> cars <span
+                    style="color:#666666;">=</span> [];<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">for</span> (<span style="color:#008000;font-weight:bold;">var</span> i <span
+                    style="color:#008000;font-weight:bold;">in</span> <span
+                    style="color:#008000;font-weight:bold;">this</span>.cars) {
+        cars.push(<span style="color:#008000;font-weight:bold;">this</span>.cars[i].car.getInfo() + <span style="color:#ba2121;">' '</span> + getPriceInRUB(<span style="color:#008000;font-weight:bold;">this</span>.cars[i].price));
+    }<br>&nbsp; &nbsp; <span style="color:#008000;font-weight:bold;">return </span>cars.join(<span style="color:#ba2121;">', '</span>);<br>}</pre>
+    </div>
+</div>
+<br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-4');return false;">
+    4. Найдите все текстовые файлы (*.txt), в имени которых содержится «yandex», а в содержимом — «школа
+    фронтенд-разработки».</a>
+</div>
+<div class="b-task-answer b-task-answer_type_tech" id="tech-answer-4">
+    <p class="b-task-answer__p">find / -name *yandex*.txt -exec grep -l "школа фронтенд-разработки" {} \;</p>
+</div>
+<br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-5');return false;">
+    5. Дана программа, реализованная одновременно на Bash, Python и Perl. Программа принимает произвольное
+    количество аргументов и печатает их количество. Нужно добавить опцию -v для verbose-режима, в котором
+    дополнительно выводится значение каждого из аргументов.</a>
+</div>
+<div class="b-task-answer b-task-answer_type_tech" id="tech-answer-5">
+<div><a class="b-task-title__a_type_code" href="#" onclick="showOrHideAnswer('#tabs-bash');return false;">Bash</a>
+</div>
+<div class="b-task-answer_type_code" id="tabs-bash">
+    <ul>
+        <li><a href="#tabs-bash-1">Задание</a></li>
+        <li><a href="#tabs-bash-2">Решение</a></li>
+    </ul>
+    <br>
+
+    <div id="tabs-bash-1" class="b-code">
+        <pre style="line-height:125%;"><span style="color:#408080;font-style:italic;">#!/usr/bin/env bash</span><br><br>usage<span
+                style="color:#666666;">()</span> <span style="color:#666666;">{</span><br>cat <span
+                style="color:#ba2121;">&lt;&lt; EOF</span><br><span style="color:#ba2121;">Usage: printargs.sh [OPTIONS] [ARGUMENTS]</span><br><span
+                style="color:#ba2121;"> Print the number of arguments.</span><br><br><span style="color:#ba2121;">OPTIONS:</span><br><span
+                style="color:#ba2121;"> -h print help message</span><br><span style="color:#ba2121;"> -m MSG custom message</span><br><br><span
+                style="color:#ba2121;">Examples:</span><br><span
+                style="color:#ba2121;"> printargs.sh a b c</span><br><span style="color:#ba2121;"> printargs.sh -m 'Arguments count: ' a b c</span><br><span
+                style="color:#ba2121;"> printargs.sh -h</span><br><br><span style="color:#ba2121;">EOF</span><br><span
+                style="color:#666666;">}</span><br><br><span style="color:#008000;font-weight:bold;">while </span><span
+                style="color:#008000;">getopts</span> “hm:” OPTION <span style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br><span
+                style="color:#008000;font-weight:bold;">do</span><br><span
+                style="color:#008000;font-weight:bold;"> case</span> <span style="color:#19177c;">$OPTION</span> in<br>&nbsp; &nbsp; &nbsp; &nbsp; h<span
+                style="color:#666666;">)</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; usage<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;">exit </span>1<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;">shift</span>;;<br>&nbsp; &nbsp; &nbsp; &nbsp; m<span
+                style="color:#666666;">)</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#19177c;">MESSAGE</span><span style="color:#666666;">=</span><span style="color:#19177c;">$OPTARG</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                style="color:#008000;">shift</span>;<span style="color:#008000;">shift</span>;;<br>&nbsp; &nbsp; <span
+                style="color:#008000;font-weight:bold;">esac</span><br><span style="color:#008000;font-weight:bold;">done</span><br><br><span
+                style="color:#19177c;">COUNT</span><span style="color:#666666;">=</span>0<br><br><span
+                style="color:#008000;font-weight:bold;">for </span>ARG in <span style="color:#19177c;">$@</span>; <span
+                style="color:#008000;font-weight:bold;">do</span><br>&nbsp; &nbsp; <span
+                style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br>&nbsp; &nbsp; <span
+                style="color:#408080;font-style:italic;"># and print each argument</span><br>&nbsp; &nbsp; <span
+                style="color:#008000;">let </span>COUNT+<span style="color:#666666;">=</span>1<br><span
+                style="color:#008000;font-weight:bold;">done</span><br><br><span
+                style="color:#008000;font-weight:bold;">if</span> <span style="color:#666666;">[[</span> <span
+                style="color:#ba2121;">"$MESSAGE"</span> !<span style="color:#666666;">=</span> <span
+                style="color:#ba2121;">""</span> <span style="color:#666666;">]]</span>; <span
+                style="color:#008000;font-weight:bold;">then</span><br><span style="color:#008000;">echo</span> <span
+                style="color:#19177c;">$MESSAGE</span><br><span
+                style="color:#008000;font-weight:bold;">fi</span><br><br><span style="color:#008000;">echo</span> <span
+                style="color:#19177c;">$COUNT</span></pre>
+    </div>
+    <div id="tabs-bash-2" class="b-code">
+         <pre style="line-height:125%;"><span
+                 style="color:#408080;font-style:italic;">#!/usr/bin/env bash</span><br><br>usage<span
+                 style="color:#666666;">()</span> <span style="color:#666666;">{</span><br>cat <span
+                 style="color:#ba2121;">&lt;&lt; EOF</span><br><span style="color:#ba2121;">Usage: printargs.sh [OPTIONS] [ARGUMENTS]</span><br><span
+                 style="color:#ba2121;"> Print the number of arguments.</span><br><br><span
+                 style="color:#ba2121;">OPTIONS:</span><br><span
+                 style="color:#ba2121;"> -h print help message</span><br><span style="color:#ba2121;"> -m MSG custom message</span><br><span
+                 style="color:#ba2121;"> -v print each argument</span><br><br><span
+                 style="color:#ba2121;">Examples:</span><br><span
+                 style="color:#ba2121;"> printargs.sh a b c</span><br><span
+                 style="color:#ba2121;"> printargs.sh -v a b c</span><br><span style="color:#ba2121;"> printargs.sh -m 'Arguments count: ' a b c</span><br><span
+                 style="color:#ba2121;"> printargs.sh -m 'Arguments count: ' -v a b c</span><br><span
+                 style="color:#ba2121;"> printargs.sh -h</span><br><br><span
+                 style="color:#ba2121;">EOF</span><br><span
+                 style="color:#666666;">}</span><br><br><span
+                 style="color:#19177c;">VERBOSE</span><span style="color:#666666;">=</span>0<br><br><span
+                 style="color:#008000;font-weight:bold;">while </span><span
+                 style="color:#008000;">getopts</span> “hm:v” OPTION <br><span
+                 style="color:#008000;font-weight:bold;">do</span><br>&nbsp; &nbsp; <span
+                 style="color:#008000;font-weight:bold;">case</span> <span style="color:#19177c;">$OPTION</span> in<br>&nbsp; &nbsp; &nbsp; &nbsp; h<span
+                 style="color:#666666;">)</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; usage<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                 style="color:#008000;">exit </span>1<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                 style="color:#008000;">shift</span>;;<br>&nbsp; &nbsp; &nbsp; &nbsp; m<span
+                 style="color:#666666;">)</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                 style="color:#19177c;">MESSAGE</span><span style="color:#666666;">=</span><span
+                 style="color:#19177c;">$OPTARG</span>;;<br>&nbsp; &nbsp; &nbsp; &nbsp; v<span
+                 style="color:#666666;">)</span><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                 style="color:#19177c;">VERBOSE</span><span style="color:#666666;">=</span>1;;<br>&nbsp; &nbsp; <span
+                 style="color:#008000;font-weight:bold;">esac</span><br><span style="color:#008000;font-weight:bold;">done</span><br><br><span
+                 style="color:#19177c;">COUNT</span><span style="color:#666666;">=</span>0<br><br><span
+                 style="color:#008000;">shift </span><span style="color:#19177c;">$((OPTIND</span>-1<span
+                 style="color:#19177c;">))</span><br><br><span
+                 style="color:#008000;font-weight:bold;">for </span>ARG in <span style="color:#19177c;">$@</span>; <span
+                 style="color:#008000;font-weight:bold;">do</span><br>&nbsp; &nbsp; <span
+                 style="color:#008000;">let </span>COUNT+<span style="color:#666666;">=</span>1<br>&nbsp; &nbsp; <span
+                 style="color:#008000;font-weight:bold;">if</span> <span style="color:#666666;">[[</span> <span
+                 style="color:#ba2121;">"$VERBOSE"</span> <span style="color:#666666;">==</span> <span
+                 style="color:#ba2121;">"1"</span> <span style="color:#666666;">]]</span>; <span
+                 style="color:#008000;font-weight:bold;">then</span><br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                 style="color:#008000;">echo</span> <span style="color:#19177c;">$ARG</span><br>&nbsp; &nbsp; <span
+                 style="color:#008000;font-weight:bold;">fi</span><br><span
+                 style="color:#008000;font-weight:bold;">done</span><br><br><span
+                 style="color:#008000;font-weight:bold;">if</span> <span style="color:#666666;">[[</span> <span
+                 style="color:#ba2121;">"$MESSAGE"</span> !<span style="color:#666666;">=</span> <span
+                 style="color:#ba2121;">""</span> <span style="color:#666666;">]]</span>; <span
+                 style="color:#008000;font-weight:bold;">then</span><br>&nbsp; &nbsp; <span
+                 style="color:#008000;">echo</span> <span style="color:#19177c;">$MESSAGE</span><br><span
+                 style="color:#008000;font-weight:bold;">fi</span><br><br><span style="color:#008000;">echo</span> <span
+                 style="color:#19177c;">$COUNT</span></pre>
+    </div>
+</div>
+
+<div><a class="b-task-title__a_type_code" href="#"
+        onclick="showOrHideAnswer('#tabs-python');return false;">Python</a>
+</div>
+<div class="b-task-answer_type_code" id="tabs-python">
+    <ul>
+        <li><a href="#tabs-python-1">Задание</a></li>
+        <li><a href="#tabs-python-2">Решение</a></li>
+    </ul>
+    <br>
+
+    <div id="tabs-python-1" class="b-code">
+                <pre style="line-height:125%;"><span
+                        style="color:#408080;font-style:italic;">#!/usr/bin/env python</span><br><br><span
+                        style="color:#008000;font-weight:bold;">import</span> <span
+                        style="color:#0000ff;font-weight:bold;">argparse</span><br><br>parser <span
+                        style="color:#666666;">=</span> argparse<span style="color:#666666;">.</span>ArgumentParser(description<span
+                        style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'Print the number of arguments.'</span>)<br>parser<span
+                        style="color:#666666;">.</span>add_argument(<span style="color:#ba2121;">'arguments'</span>, metavar<span
+                        style="color:#666666;">=</span><span style="color:#ba2121;">'ARG'</span>, <span
+                        style="color:#008000;">type</span><span style="color:#666666;">=</span><span
+                        style="color:#008000;">str</span>, nargs<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'*'</span>, help<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'some arguments'</span>)<br>parser<span style="color:#666666;">.</span>add_argument(<span
+                        style="color:#ba2121;">'-m'</span>, dest<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'message'</span>, default<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">''</span>, help<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'custom message'</span>)<br><span
+                        style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br><br>args <span
+                        style="color:#666666;">=</span> parser<span style="color:#666666;">.</span>parse_args()<br><br>count <span
+                        style="color:#666666;">=</span> <span style="color:#666666;">0</span><br><br><span
+                        style="color:#008000;font-weight:bold;">for</span> a <span
+                        style="color:#aa22ff;font-weight:bold;">in</span> args<span style="color:#666666;">.</span>arguments:<br>&nbsp; &nbsp; <span
+                        style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br>&nbsp; &nbsp; <span
+                        style="color:#408080;font-style:italic;"># and print each argument</span><br>&nbsp; &nbsp; count <span
+                        style="color:#666666;">+=</span> <span style="color:#666666;">1</span><br><br><span
+                        style="color:#008000;font-weight:bold;">if</span> args<span style="color:#666666;">.</span>message <span
+                        style="color:#666666;">!=</span> <span style="color:#ba2121;">''</span>:<br>&nbsp; &nbsp; <span
+                        style="color:#008000;font-weight:bold;">print</span>(args<span style="color:#666666;">.</span>message)<br><br><span
+                        style="color:#008000;font-weight:bold;">print</span>(count)</pre>
+    </div>
+    <div id="tabs-python-2" class="b-code">
+                <pre style="line-height:125%;"><span
+                        style="color:#408080;font-style:italic;">#!/usr/bin/env python</span><br><br><span
+                        style="color:#008000;font-weight:bold;">import</span> <span
+                        style="color:#0000ff;font-weight:bold;">argparse</span><br><br>parser <span
+                        style="color:#666666;">=</span> argparse<span style="color:#666666;">.</span>ArgumentParser(description<span
+                        style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'Print the number of arguments.'</span>)<br>parser<span
+                        style="color:#666666;">.</span>add_argument(<span style="color:#ba2121;">'arguments'</span>, metavar<span
+                        style="color:#666666;">=</span><span style="color:#ba2121;">'ARG'</span>, <span
+                        style="color:#008000;">type</span><span style="color:#666666;">=</span><span
+                        style="color:#008000;">str</span>, nargs<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'*'</span>, help<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'some arguments'</span>)<br>parser<span style="color:#666666;">.</span>add_argument(<span
+                        style="color:#ba2121;">'-m'</span>, dest<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'message'</span>, default<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">''</span>, help<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'custom message'</span>)<br>parser<span style="color:#666666;">.</span>add_argument(<span
+                        style="color:#ba2121;">'-v'</span>, dest<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'verbose'</span>, action<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'store_true'</span>, help<span style="color:#666666;">=</span><span
+                        style="color:#ba2121;">'print each argument'</span>)<br><br>args <span
+                        style="color:#666666;">=</span> parser<span
+                        style="color:#666666;">.</span>parse_args()<br><br>count <span
+                        style="color:#666666;">=</span> <span style="color:#666666;">0</span><br><br><span
+                        style="color:#008000;font-weight:bold;">for</span> a <span
+                        style="color:#aa22ff;font-weight:bold;">in</span> args<span style="color:#666666;">.</span>arguments:<br>&nbsp; &nbsp; count <span
+                        style="color:#666666;">+=</span> <span style="color:#666666;">1</span><br>&nbsp; &nbsp; <span
+                        style="color:#008000;font-weight:bold;">if</span> args<span style="color:#666666;">.</span>verbose:<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                        style="color:#008000;font-weight:bold;">print</span>(a)<br><br><span
+                        style="color:#008000;font-weight:bold;">if</span> args<span style="color:#666666;">.</span>message <span
+                        style="color:#666666;">!=</span> <span
+                        style="color:#ba2121;">''</span>:<br>&nbsp; &nbsp; <span
+                        style="color:#008000;font-weight:bold;">print</span>(args<span
+                        style="color:#666666;">.</span>message)<br><br><span
+                        style="color:#008000;font-weight:bold;">print</span>(count)</pre>
+    </div>
+</div>
+
+<div><a class="b-task-title__a_type_code" href="#" onclick="showOrHideAnswer('#tabs-perl');return false;">Perl</a>
+</div>
+<div class="b-task-answer_type_code" id="tabs-perl">
+    <ul>
+        <li><a href="#tabs-perl-1">Задание</a></li>
+        <li><a href="#tabs-perl-2">Решение</a></li>
+    </ul>
+    <br>
+
+    <div id="tabs-perl-1" class="b-code">
+            <pre style="line-height:125%;"><span style="color:#408080;font-style:italic;">#!/usr/bin/env perl</span><br><br><span
+                    style="color:#008000;font-weight:bold;">use</span> strict;<br><span
+                    style="color:#008000;font-weight:bold;">use</span> <span style="color:#0000ff;font-weight:bold;">Getopt::</span>Long;<br><span
+                    style="color:#008000;font-weight:bold;">use</span> <span style="color:#0000ff;font-weight:bold;">Pod::</span>Usage;<br><br><span
+                    style="color:#008000;font-weight:bold;">my</span> <span
+                    style="color:#19177c;">$help</span>;<br><span
+                    style="color:#008000;font-weight:bold;">my</span> <span style="color:#19177c;">$message</span> <span
+                    style="color:#666666;">=</span> <span style="color:#ba2121;">''</span>;<br><br><span
+                    style="color:#19177c;">@ARGV</span> <span style="color:#aa22ff;font-weight:bold;">and</span> GetOptions(<br>&nbsp; &nbsp; <span
+                    style="color:#ba2121;">"h"</span> <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">\</span><span style="color:#19177c;">$help</span>,<br>&nbsp; &nbsp; <span
+                    style="color:#ba2121;">"m:s"</span> <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">\</span><span style="color:#19177c;">$message</span>,<br>&nbsp; &nbsp; <span
+                    style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br>) <span
+                    style="color:#aa22ff;font-weight:bold;">or</span> pod2usage(<span
+                    style="color:#666666;">1</span>);<br>pod2usage(<span style="color:#666666;">-</span>verbose <span
+                    style="color:#666666;">=&gt;</span> <span style="color:#666666;">2</span>, <span
+                    style="color:#666666;">-</span>exitval <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">2</span>) <span style="color:#008000;font-weight:bold;">if</span> <span
+                    style="color:#19177c;">$help</span>;<br><br><span style="color:#008000;font-weight:bold;">my</span> <span
+                    style="color:#19177c;">$count</span> <span style="color:#666666;">=</span> <span
+                    style="color:#666666;">0</span>;<br><br><span style="color:#008000;font-weight:bold;">foreach</span>(<span
+                    style="color:#19177c;">@ARGV</span>) {<br>&nbsp; &nbsp; <span
+                    style="color:#408080;font-style:italic;"># TODO: add '-v' option for verbose mode</span><br>&nbsp; &nbsp; <span
+                    style="color:#408080;font-style:italic;"># and print each argument</span><br>&nbsp; &nbsp; <span
+                    style="color:#19177c;">$count</span><span style="color:#666666;">++</span>;<br>}<br><br><span
+                    style="color:#008000;font-weight:bold;">if</span>(<span style="color:#19177c;">$message</span> <span
+                    style="color:#aa22ff;font-weight:bold;">ne</span> <span style="color:#ba2121;">""</span>) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">print</span>(<span
+                    style="color:#19177c;">$message</span> <span style="color:#666666;">.</span> <span
+                    style="color:#ba2121;">"\n"</span>);<br>}<br><br><span
+                    style="color:#008000;font-weight:bold;">print</span>(<span
+                    style="color:#19177c;">$count</span> <span style="color:#666666;">.</span> <span
+                    style="color:#ba2121;">"\n"</span>);<br><br><span style="color:#bc7a00;">__END__</span><br><br><span
+                    style="color:#bc7a00;">=head1 NAME</span><br><br><span style="color:#bc7a00;"> printargs.pl - Print the number of arguments.</span><br><br><span
+                    style="color:#bc7a00;">=head1 SYNOPSIS</span><br><br><span style="color:#bc7a00;"> printargs.pl [options] [arguments]</span><br><br><span
+                    style="color:#bc7a00;">=head1 OPTIONS</span><br><br><span style="color:#bc7a00;"> -h Show help message.</span><br><br><span
+                    style="color:#bc7a00;"> -m MSG Specify a custom message.</span><br><br><br><span
+                    style="color:#bc7a00;">=head1 EXAMPLE</span><br><br><span
+                    style="color:#bc7a00;"> printargs.sh a b c</span><br><br><span style="color:#bc7a00;"> printargs.sh -m 'Arguments count: ' a b c</span><br><br><span
+                    style="color:#bc7a00;"> printargs.sh -h</span><br><br><span style="color:#bc7a00;">=cut</span></pre>
+    </div>
+    <div id="tabs-perl-2" class="b-code">
+            <pre style="line-height:125%;"><span style="color:#408080;font-style:italic;">#!/usr/bin/env perl</span><br><br><span
+                    style="color:#008000;font-weight:bold;">use</span> strict;<br><span
+                    style="color:#008000;font-weight:bold;">use</span> <span style="color:#0000ff;font-weight:bold;">Getopt::</span>Long;<br><span
+                    style="color:#008000;font-weight:bold;">use</span> <span style="color:#0000ff;font-weight:bold;">Pod::</span>Usage;<br><br><span
+                    style="color:#008000;font-weight:bold;">my</span> <span
+                    style="color:#19177c;">$help</span>;<br><span
+                    style="color:#008000;font-weight:bold;">my</span> <span style="color:#19177c;">$message</span> <span
+                    style="color:#666666;">=</span> <span style="color:#ba2121;">''</span>;<br><span
+                    style="color:#008000;font-weight:bold;">my</span> <span
+                    style="color:#19177c;">$verbose</span>;<br><br><span
+                    style="color:#19177c;">@ARGV</span> <span style="color:#aa22ff;font-weight:bold;">and</span> GetOptions(<br>&nbsp; &nbsp; <span
+                    style="color:#ba2121;">"h"</span> <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">\</span><span style="color:#19177c;">$help</span>,<br>&nbsp; &nbsp; <span
+                    style="color:#ba2121;">"m:s"</span> <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">\</span><span style="color:#19177c;">$message</span>,<br>&nbsp; &nbsp; <span
+                    style="color:#ba2121;">"v"</span> <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">\</span><span style="color:#19177c;">$verbose</span>,<br>) <span
+                    style="color:#aa22ff;font-weight:bold;">or</span> pod2usage(<span
+                    style="color:#666666;">1</span>);<br>pod2usage(<span style="color:#666666;">-</span>verbose <span
+                    style="color:#666666;">=&gt;</span> <span style="color:#666666;">2</span>, <span
+                    style="color:#666666;">-</span>exitval <span style="color:#666666;">=&gt;</span> <span
+                    style="color:#666666;">2</span>) <span style="color:#008000;font-weight:bold;">if</span> <span
+                    style="color:#19177c;">$help</span>;<br><br><span style="color:#008000;font-weight:bold;">my</span> <span
+                    style="color:#19177c;">$count</span> <span style="color:#666666;">=</span> <span
+                    style="color:#666666;">0</span>;<br><br><span
+                    style="color:#008000;font-weight:bold;">foreach my </span><span
+                    style="color:#19177c;">$arg </span>(<span
+                    style="color:#19177c;">@ARGV</span>) {<br>&nbsp; &nbsp; <span
+                    style="color:#19177c;">$count</span><span style="color:#666666;">++</span>;<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">if</span>(<span
+                    style="color:#19177c;">$verbose</span>) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">print</span>(<span
+                    style="color:#19177c;">$arg</span> <span style="color:#666666;">.</span> <span
+                    style="color:#ba2121;">"\n"</span>);<br>&nbsp; &nbsp; }<br>}<br><br><span
+                    style="color:#008000;font-weight:bold;">if</span>(<span style="color:#19177c;">$message</span> <span
+                    style="color:#aa22ff;font-weight:bold;">ne</span> <span style="color:#ba2121;">""</span>) {<br>&nbsp; &nbsp; <span
+                    style="color:#008000;font-weight:bold;">print</span>(<span
+                    style="color:#19177c;">$message</span> <span style="color:#666666;">.</span> <span
+                    style="color:#ba2121;">"\n"</span>);<br>}<br><br><span
+                    style="color:#008000;font-weight:bold;">print</span>(<span
+                    style="color:#19177c;">$count</span> <span style="color:#666666;">.</span> <span
+                    style="color:#ba2121;">"\n"</span>);<br><br><span style="color:#bc7a00;">__END__</span><br><br><span
+                    style="color:#bc7a00;">=head1 NAME</span><br><br><span style="color:#bc7a00;"> printargs.pl - Print the number of arguments.</span><br><br><span
+                    style="color:#bc7a00;">=head1 SYNOPSIS</span><br><br><span style="color:#bc7a00;"> printargs.pl [options] [arguments]</span><br><br><span
+                    style="color:#bc7a00;">=head1 OPTIONS</span><br><br><span style="color:#bc7a00;"> -h Show help message.</span><br><br><span
+                    style="color:#bc7a00;"> -m MSG Specify a custom message.</span><br><br><span
+                    style="color:#bc7a00;"> -v Print each argument.</span><br><br><br><span
+                    style="color:#bc7a00;">=head1 EXAMPLE</span><br><br><span
+                    style="color:#bc7a00;"> printargs.pl a b c</span><br><br><span
+                    style="color:#bc7a00;"> printargs.pl -v a b c</span><br><br><span style="color:#bc7a00;"> printargs.pl -m 'Arguments count: ' a b c</span><br><br><span
+                    style="color:#bc7a00;"> printargs.pl -m 'Arguments count: ' -v a b c</span><br><br><span
+                    style="color:#bc7a00;"> printargs.pl -h</span><br><br><span style="color:#bc7a00;">=cut</span></pre>
+    </div>
+</div>
+</div>
+<br>
+
+<div><a class="b-tasks_type_tech__a" href="" onclick="showOrHideAnswer('#tech-answer-6');return false;">
+    6. Расскажите, в каком объёме и при каких обстоятельствах вы изучали следующие темы: языки программирования
+    (императивные/декларативные, разные системы типов), структуры (классы, структуры данных, примитивные типы),
+    парадигмы (события, ООП, параллельность/асинхронность, кеширование), алгоритмы (парсинг, сортировка, поиск),
+    паттерны.</a>
+</div>
+<div class="b-task-answer b-task-answer_type_tech" id="tech-answer-6">
+    <p class="b-task-answer__p">
+        Основную базу знаний я получил во время обучения в университете по специальности "Программное обеспечение"<br>
+        Были пройдены такие дисциплины как: ОС, "Структуры и алгоритмы обработки данных", "ООП", "Параллельное программирование" и т.д.<br>
+        Из технологий и языков программирования: Pascal, C++, Lisp, Prolog, Ассемблер, PHP, SQL, UML.<br><br>
+
+        Достаточно длительное время в университете шли обучающие курсы компании NetCracker.<br>
+        Нас учили ООП на Java. Учили работать со структурами данных и много уделяли шаблонам проектирования.<br>
+        Оттуда я узнал про такие вещи как Adapter, Singleton, Iterator, MVC, DAO и т.д.<br><br>
+
+        В настоящее время большинство знаний я получаю из интернета (например, статьи на habrahabr.ru) и из книг, из наиболее значимых - "Философия Java" Брюса Эккеля и "Design Patterns" Gang of Four.
+    </p>
+</div>
+</div>
+<!---->
+
+
+</div>
+<script type="text/javascript">
+
+
+    function openBlock(blockTitle, blockId) {
+        if ($(blockId).is(':visible')) {
+            $(blockTitle).removeClass('b-task-title__a_type_active');
+            $(blockId).hide();
+        } else {
+            $('.b-tasks').hide();
+            $('.b-task-title__a').removeClass('b-task-title__a_type_active')
+            $(blockTitle).addClass('b-task-title__a_type_active');
+            $(blockId).show('blind', {}, 300);
+        }
+    }
+
+    function showOrHideAnswer(blockId) {
+        if ($(blockId).is(':visible')) {
+            $(blockId).hide();
+        } else {
+            $(blockId).show('blind', {}, 300);
+        }
+    }
+
+    $(function () {
+        $("#tech-answer-3").tabs();
+        $("#tabs-bash").tabs();
+        $("#tabs-python").tabs();
+        $("#tabs-perl").tabs();
+    });
+</script>
+</body>
+</html>

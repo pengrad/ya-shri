@@ -1,0 +1,50 @@
+.b-page {
+    color: #000000;
+    font-size: 12px;
+}
+
+.b-page-title__title {
+    font-size: 140%;
+}
+
+.b-task-title__a {
+    color: #000000;
+}
+
+.l-head__r {
+    display: none;
+}
+
+.b-tasks {
+    display: block !important;
+}
+
+.b-task-answer_type_tech, .b-task-answer_type_code {
+    display: block !important;
+    color: #000000;
+}
+
+.b-tasks_type_tech__a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.b-task-answer__p {
+    color: #000000;
+}
+
+.b-code {
+    color: #000000;
+}
+
+#tabs-js-1, #tabs-perl-1, #tabs-python-1, #tabs-bash-1 {
+    display: none !important;
+}
+
+#tabs-js-2, #tabs-perl-2, #tabs-python-2, #tabs-bash-2 {
+    display: block !important;
+}
+
+body {
+    font-size: 12px !important;
+}
